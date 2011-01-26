@@ -15,8 +15,11 @@
 	NSOperationQueue *rssQueue;
 	NSError *feedError;
 	id psNotification;
+	NSStatusItem *statusBar;
+	NSMenu *statusMenu;
 }
 
+@property(retain) IBOutlet NSMenu *statusMenu;
 @property(retain) NSOperationQueue *rssQueue;
 @property(retain) PSFeed *newsFeed;
 @property(retain) NSError *feedError;

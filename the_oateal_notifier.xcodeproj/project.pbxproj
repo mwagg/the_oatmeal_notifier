@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* the_oateal_notifierAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* the_oateal_notifierAppDelegate.m */; };
+		4C12554F12F0CA06002517DE /* oatmeal_highlight.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4C12554D12F0CA06002517DE /* oatmeal_highlight.tif */; };
+		4C12555012F0CA06002517DE /* oatmeal_lolight.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4C12554E12F0CA06002517DE /* oatmeal_lolight.tif */; };
 		4C8626CD12EF780400FB44F3 /* PubSub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8626CC12EF780400FB44F3 /* PubSub.framework */; };
 		4C8626D212EF781800FB44F3 /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8626D112EF781800FB44F3 /* ApplicationController.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -27,6 +29,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4C12554D12F0CA06002517DE /* oatmeal_highlight.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = oatmeal_highlight.tif; sourceTree = "<group>"; };
+		4C12554E12F0CA06002517DE /* oatmeal_lolight.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = oatmeal_lolight.tif; sourceTree = "<group>"; };
 		4C8626CC12EF780400FB44F3 /* PubSub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PubSub.framework; path = System/Library/Frameworks/PubSub.framework; sourceTree = SDKROOT; };
 		4C8626D012EF781800FB44F3 /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; };
 		4C8626D112EF781800FB44F3 /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationController.m; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4C12554D12F0CA06002517DE /* oatmeal_highlight.tif */,
+				4C12554E12F0CA06002517DE /* oatmeal_lolight.tif */,
 				8D1107310486CEB800E47090 /* the_oateal_notifier-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -170,6 +176,8 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				4C12554F12F0CA06002517DE /* oatmeal_highlight.tif in Resources */,
+				4C12555012F0CA06002517DE /* oatmeal_lolight.tif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
